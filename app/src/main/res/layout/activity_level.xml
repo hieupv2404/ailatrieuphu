@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7B1FA2">
+
+    <TextView
+        android:id="@+id/tvlevel15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="15  150,000,000"
+        android:textColor="#FF9800"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel15"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="14  85,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel14"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="13  60,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel13"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="12  40,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel12"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="11  30,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvlevel11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="10  20,000,000"
+        android:textColor="#FF9800"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel10"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="9  14,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvlevel8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel9"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="8  10,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel8"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="7  6,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel7"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="6  3,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel6"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="5  2,000,000"
+        android:textColor="#FF9800"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvlevel4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel5"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="4  1,000,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvleve3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlevel4"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="3  600,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvleve2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvleve3"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="2  400,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvleve1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvleve2"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="1  200,000"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</RelativeLayout>

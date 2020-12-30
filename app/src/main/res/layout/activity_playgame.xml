@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/background_online_blank" />
+
+
+    <TextView
+        android:id="@+id/tvtimer"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/drawable_clock"
+        android:gravity="center"
+        android:text="30"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/tvlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/retry"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/atp_icon_retry" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgstop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/hand" />
+
+        <ImageButton
+            android:id="@+id/imghelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/hepl" />
+
+        <ImageButton
+            android:id="@+id/imghelpx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/x"
+            android:visibility="invisible" />
+
+
+        <ImageButton
+            android:id="@+id/imgpercent50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:background="@drawable/percent50" />
+
+        <ImageButton
+            android:id="@+id/imgpercent50x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:background="@drawable/x"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imgcall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:background="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/imgcallx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:background="@drawable/x"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imgrestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:background="@drawable/restart" />
+
+        <ImageButton
+            android:id="@+id/imgrestartx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:background="@drawable/x"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvquestion"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textColor="#FF6D00"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvquestion"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_nomal"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_nomal"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_nomal"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_nomal"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answer3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_score"
+            android:gravity="center"
+            android:text="200.000"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
