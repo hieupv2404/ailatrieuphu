@@ -357,7 +357,6 @@ public class ActivityPlayGame extends AppCompatActivity implements View.OnClickL
 
                     if (databaseManager.getHighScores().get(0).getLevelPass()<DialogCustom.level){
                         isShowDialog=true;
-
                     }
                     MainActivity.isPlay = true;
                     DatabaseManager.number = 1;
@@ -685,6 +684,7 @@ public class ActivityPlayGame extends AppCompatActivity implements View.OnClickL
 
             case R.id.imgrestart:
                 mediaClick();
+                // khoi tao lai bo cau hoi
                 databaseManager.queryFitTeen();
                 inisData();
                 MainActivity.btnStart = false;
@@ -870,6 +870,7 @@ public class ActivityPlayGame extends AppCompatActivity implements View.OnClickL
         tv1.add(btnAnswer3);
         tv1.add(btnAnswer4);
         String t;
+        // bo cau dung ra khoi danh sach se bi xoa noi dung dap an
         for (int i = 0; i < tv1.size(); i++) {
             t = tv1.get(i).getText().toString();
             if (t.substring(2).equals(DatabaseManager.answer)) {
@@ -879,6 +880,7 @@ public class ActivityPlayGame extends AppCompatActivity implements View.OnClickL
         Random rd = new Random();
         Vector v = new Vector();
         int iNew = 0;
+        // chon 2 trong 3 thang de xoa noi dung dap an
         for (int i = 0; i < 2; ) {
             iNew = rd.nextInt(tv1.size());
             if (!v.contains(iNew)) {

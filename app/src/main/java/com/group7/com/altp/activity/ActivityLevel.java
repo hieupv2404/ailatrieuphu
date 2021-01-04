@@ -78,6 +78,7 @@ public class ActivityLevel extends AppCompatActivity implements View.OnClickList
         return;
     }
 
+    // Den level nao, thi chen them nen mau xanh cho level y
     private void inisBackGround() {
         switch (DatabaseManager.number) {
             case 1:
@@ -130,6 +131,7 @@ public class ActivityLevel extends AppCompatActivity implements View.OnClickList
     }
 
 
+    //  get element từ view
     private void inisView() {
         tvLevel1 = findViewById(R.id.tvleve1);
         tvLevel2 = findViewById(R.id.tvleve2);
